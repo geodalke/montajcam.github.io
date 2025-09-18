@@ -17,16 +17,18 @@
     }
 
     .logo-frame {
-      width: 663px;
-      height: 299px;
-      margin: 2rem auto 0 auto; /* optional top margin, centered */
+      /* allow the container to shrink based on screen size */
+      width: 100%;
+      max-width: 663px;  /* the max you want on larger screens */
+      height: auto;      /* let height scale to preserve aspect ratio */
+      margin: 2rem auto 0 auto; /* top margin, and center it horizontally */
       overflow: hidden;
     }
 
     .logo-frame img {
-      width: 663px;
-      height: 299px;
-      object-fit: cover; /* change to contain if you want full image visible with possible blank space */
+      width: 100%;       /* let the image fill the container width */
+      height: auto;      /* scale height to preserve aspect ratio */
+      object-fit: cover; /* or contain, depending on how you want cropping to behave */
       display: block;
     }
 
@@ -64,10 +66,11 @@
 </head>
 <body>
 
-   <div class="logo-frame">
+  <div class="logo-frame">
     <img src="MontajLogo.jpeg" alt="Montaj Logo">
   </div>
 
+  
   <h1>Montaj Cam</h1>
   <p style="text-align:center;"><strong>A Minimalist Video Camera App For Creating Montages</strong></p>
  
