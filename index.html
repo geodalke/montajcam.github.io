@@ -16,6 +16,20 @@
       color: #111;
     }
 
+    .logo-frame {
+      width: 663px;
+      height: 299px;
+      margin: 2rem auto 0 auto; /* optional top margin, centered */
+      overflow: hidden;
+    }
+
+    .logo-frame img {
+      width: 663px;
+      height: 299px;
+      object-fit: cover; /* change to contain if you want full image visible with possible blank space */
+      display: block;
+    }
+
     h1, h2 {
       text-align: center;
     }
@@ -49,6 +63,10 @@
   </style>
 </head>
 <body>
+
+   <div class="logo-frame">
+    <img src="MontajLogo.jpeg" alt="Montaj Logo">
+  </div>
 
   <h1>Montaj Cam</h1>
   <p style="text-align:center;"><strong>A Minimalist Video Camera App For Creating Montages</strong></p>
