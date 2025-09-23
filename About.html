@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — Mindhive / Montaj</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#07b3a7;--muted:#9aa4b2;--glass: rgba(255,255,255,0.03)}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;color:#e6eef6;background:linear-gradient(180deg,#071028 0%, #081426 60%, #071226 100%);}
+    .wrap{max-width:980px;margin:40px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;box-shadow:0 10px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#2bb7d0);display:flex;align-items:center;justify-content:center;color:#04202a;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:8px 0 0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)}
+    .muted{color:var(--muted);font-size:14px}
+    ul.features{padding-left:18px}
+    ul.features li{margin:10px 0}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-size:13px}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr;}.wrap{margin:20px;padding:16px}}
+    .cta{margin-top:14px;display:flex;gap:10px}
+    .btn{padding:10px 14px;border-radius:10px;border:0;cursor:pointer;font-weight:600}
+    .btn.secondary{background:transparent;border:1px solid rgba(255,255,255,0.04);color:#d9e8f3}
+    .btn.primary{background:var(--accent);color:#04202a}
+    pre{white-space:pre-wrap;margin:0;padding:10px;background:rgba(255,255,255,0.02);border-radius:8px;font-size:13px;color:#cfeff2}
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header>
+      <div class="logo">MH</div>
+      <div>
+        <h1>Mindhive, Inc. — Technology &amp; Montaj (Overview)</h1>
+        <p class="lead">Advanced, patent-backed video communication concepts validated through a focused consumer app (Montaj). Intended for technical partners exploring mission-critical verticals.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2 style="margin-top:0">Core Technology</h2>
+        <p class="muted">Mindhive has developed a portfolio of patented technologies that reimagine how video is created, shared, and used in immersive contexts.</p>
+
+        <ul class="features">
+          <li><strong>Immersive interaction (AR/VR):</strong> Move beyond post-editing — users interact directly with captured content in a shared environment.</li>
+          <li><strong>Granular security &amp; privacy:</strong> Per-user access controls and mission-focused formatting that preserve privacy while enabling collaboration.</li>
+          <li><strong>Independent perspectives:</strong> Each participant maintains their own view, emphasis, and metadata in a shared scene.</li>
+          <li><strong>Scalable feed clustering:</strong> Manage and format many simultaneous feeds — applicable to drone clusters, distributed field teams, and multi-unit operations.</li>
+        </ul>
+
+        <h3 style="margin-bottom:6px">Target problems solved</h3>
+        <p class="muted">Deliver reliable, secure, and efficient situational awareness where speed, trust, and the ability to preserve multiple viewpoints matter most.</p>
+
+        <div style="margin-top:14px">
+          <span class="badge">Patents &amp; IP</span>
+          <span style="margin-left:10px;color:var(--muted);font-size:13px">Foundational claims for group interaction, privacy, and viewpoint management</span>
+        </div>
+
+      </section>
+
+      <aside class="card">
+        <h3 style="margin-top:0">Montaj — Proof of Concept</h3>
+        <p class="muted">A minimalist social app that embodies Mindhive principles and validates our no-edit, immersive workflow in a real-world product.</p>
+
+        <ul style="padding-left:18px">
+          <li><strong>No-edit workflow:</strong> Capture, arrange, and publish without traditional trimming or post-processing.</li>
+          <li><strong>Rapid build:</strong> Conceived, developed, and launched in a few months using Mindhive tech.</li>
+          <li><strong>Live validation:</strong> Demonstrates usability, performance, and UX patterns applicable to advanced deployments.</li>
+        </ul>
+
+        <div style="margin-top:12px">
+          <strong>Why Montaj matters</strong>
+          <p class="muted">It provides credibility, a usable testbed, and a smaller-scope product to iterate quickly while we prepare for mission-critical verticals.</p>
+        </div>
+
+        <div class="cta">
+          <button class="btn primary">Request Technical Brief</button>
+          <button class="btn secondary">Contact Engineering</button>
+        </div>
+      </aside>
+    </div>
+
+    <section class="card" style="margin-top:18px">
+      <h2 style="margin-top:0">Vertical Markets &amp; Next Steps</h2>
+      <p class="muted">With validated concepts and patent protection, Mindhive is positioned to partner with engineering teams to develop tailored systems for:</p>
+
+      <ul style="padding-left:18px">
+        <li><strong>First responders:</strong> Fast, private, mission-optimized communication where each responder keeps an independent evidentiary view.</li>
+        <li><strong>Drone clusters:</strong> Aggregation, secure distribution, and mission formatting of many simultaneous feeds.</li>
+        <li><strong>Secure group networks:</strong> Industrial, security, and enterprise deployments requiring per-user preferences and strict access control.</li>
+      </ul>
+
+      <p class="muted">We are seeking technical partners to co-develop prototypes and production systems that integrate Mindhive IP with domain-specific hardware and workflows.</p>
+
+      <h3>Contact</h3>
+      <pre>Mindhive, Inc.
+Private technical partnership inquiries only
+Email: partners@mindhive.example</pre>
+      <footer>
+        <p class="muted">Montaj is a product built using Mindhive technologies. This page is for private distribution to potential technical partners.</p>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
